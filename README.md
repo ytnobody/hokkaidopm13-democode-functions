@@ -9,3 +9,6 @@ Hokkaidopm#13で発表した時にAzure Functions側で稼働していた関数�
 
 ## Azure Resource Templateとか
 [https://github.com/ytnobody/hokkaidopm13-ytnobody-func-resources](https://github.com/ytnobody/hokkaidopm13-ytnobody-func-resources)
+
+## ヘルパー
+https://gist.github.com/ytnobody/47ceda82f35a5323f90ddb92f00968fa
