@@ -1,0 +1,24 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "type": "documentDB",
+      "name": "inputDocument",
+      "databaseName": "myapp",
+      "collectionName": "member",
+      "id": "{id}",
+      "connection": "ytnobody-func_DOCUMENTDB",
+      "direction": "in"
+    },
+    {
+      "type": "http",
+      "name": "res",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

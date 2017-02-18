@@ -1,0 +1,30 @@
+{
+  "bindings": [
+    {
+      "name": "inputEvent",
+      "type": "eventHubTrigger",
+      "direction": "in",
+      "path": "myhub",
+      "connection": "ytnobody-func_EVENTHUB"
+    },
+    {
+      "type": "documentDB",
+      "name": "inputDocument",
+      "databaseName": "myapp",
+      "collectionName": "member",
+      "id": "{id}",
+      "connection": "ytnobody-func_DOCUMENTDB",
+      "direction": "in"
+    },
+    {
+      "type": "documentDB",
+      "name": "outputDocument",
+      "databaseName": "myapp",
+      "collectionName": "member",
+      "createIfNotExists": false,
+      "connection": "ytnobody-func_DOCUMENTDB",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
